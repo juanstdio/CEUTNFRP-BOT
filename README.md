@@ -4,7 +4,7 @@ Used to display the presence of the professors, news and general info about Univ
 It can deliver: 
 
 * Books of the subjets
-* General Info, pictures and PDF's
+* General Info: eg, pictures and PDFs
 * Know if there is some professor
 
 # Available Commands:
@@ -38,7 +38,14 @@ $ sudo apt-get install python
 ```
 pip install PytelegramBot
 ```
+
+
 ### Collaborators:
 * [juanchip](https://github.com/juanchip) 
 * [marcoshuck](https://github.com/marcoshuck)
 
+### Licence
+
+GNU GENERAL PUBLIC LICENSE
+
+### By Students of UTN-FRP
