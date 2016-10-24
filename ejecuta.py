@@ -4,7 +4,7 @@
 import telebot
 import time
 import asis_filro
-API_TOKEN = '287284937:AAGPsFzFkE0DhNTIe1dGCpghpyzhaRa64h0' 
+API_TOKEN = '2' 
 
 bot = telebot.TeleBot(API_TOKEN)
 print "Sistema iniciado"
@@ -77,19 +77,19 @@ def echo_message(message):
         elif 'ELECTRONICA' in mensaje.upper():
                 send= 'PLAN: Electrónica\nDescargar aquí: '
                 bot.send_message(chat_id,send)
-                bot.send_message(chat_id,'https://mega.nz/#!a0RmHLAa!sFWqojMs0lWq8a-LX748AmoHO4UDro4oYf-NN9eVFGw')
+                bot.send_message(chat_id,'https://mega.nz/')
                 print 'repartio plan electronica'
                 
         elif 'CIVIL' in mensaje.upper() or 'CIV' in mensaje.upper():
                 send= 'PLAN: Civil\nDescargar aquí: '
                 bot.send_message(chat_id,send)
-                bot.send_message(chat_id,'https://mega.nz/#!WkxlBSjR!eVcxyGr9eQym05YVezixf8bhOZ7Q90RQcjCBd5B5QN8')
+                bot.send_message(chat_id,'https://mega.nz/')
                 print 'repartio plan civil'
                 
         elif 'ELECTROMECANICA' in mensaje.upper():
                 send= 'PLAN: Electromecánica\nDescargar aquí: '
                 bot.send_message(chat_id,send)
-                bot.send_message(chat_id,'https://mega.nz/#!rwBhjYKR!lpgXMtWTMhTQ0SOeh95BWeyChPeLGSBCWhAqwy5gxP4')
+                bot.send_message(chat_id,'https://mega.nz/')
                 print 'repartio plan electromecanica'
                 
         elif 'ID?' in mensaje.upper():
