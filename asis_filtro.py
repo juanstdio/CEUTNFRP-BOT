@@ -4,7 +4,7 @@ import urllib
 from bs4 import BeautifulSoup
 
 def asistencia():
-    respuesta = urllib.urlopen('http://www.frp.utn.edu.ar/asis_doc/index.php')
+    respuesta = urllib.urlopen('http://www.frp.utn.edu.ar/asistenciaETC')
     html = respuesta.read()
 
     sopa = BeautifulSoup(html,'html.parser')
