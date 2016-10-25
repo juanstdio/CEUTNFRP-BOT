@@ -12,7 +12,7 @@ It can deliver:
   Menu
   ```
   ```
-  Libros
+  Planes de estudio
   ```
   ```
   Asistencia
