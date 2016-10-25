@@ -4,7 +4,7 @@
 import telebot
 import time
 import asis_filro
-API_TOKEN = '2' 
+API_TOKEN = 'TuTokenVaAca' 
 
 bot = telebot.TeleBot(API_TOKEN)
 print "Sistema iniciado"
