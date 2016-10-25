@@ -52,24 +52,24 @@ def echo_message(message):
                 
         elif 'BIBLIOTECA' in mensaje.upper() or 'BIB' in mensaje.upper():
                 bot.send_message(chat_id,'Horarios de Biblioteca')
-                biblio = open('/home/alumno/Escritorio/Difu_facu/biblio.jpg','rb')
+                biblio = open('horarios.jpg','rb')
                 bot.send_photo(chat_id,biblio)
                 
         elif 'SERVICIOS' in mensaje.upper() or 'COSAS' in mensaje.upper():
                 bot.send_message(chat_id,'Estos son nuestros servicios disponibles')
-                servicios = open('/home/alumno/Escritorio/Difu_facu/servicios.jpg','rb')
+                servicios = open('servicios.jpg','rb')
                 bot.send_photo(chat_id,servicios)
                 
         elif 'CALENDARIO' in mensaje.upper() or 'CAL' in mensaje.upper():
                 bot.send_message(chat_id,'Calendario Académico 2016-2017')
-                calendario = open('/home/alumno/Escritorio/Difu_facu/calendario.jpg','rb')
+                calendario = open('calendario.jpg','rb')
                 bot.send_photo(chat_id,calendario)
                 print 'calendario'
                 
         elif 'INGRESANTE' in mensaje.upper() or 'ALUMNOS' in mensaje.upper():
                 bot.send_message(chat_id,'Ingresante: Estos son tus horarios para el 2017:')
-                ing1 = open('/home/alumno/Escritorio/Difu_facu/ingresantes1.jpg','rb')
-                ing2 = open('/home/alumno/Escritorio/Difu_facu/ingresantes2.jpg','rb')
+                ing1 = open('ingresantes1.jpg','rb')
+                ing2 = open('ingresantes2.jpg','rb')
                 bot.send_photo(chat_id,ing1)
                 bot.send_photo(chat_id,ing2)
                 print 'Consulto ingresante'
