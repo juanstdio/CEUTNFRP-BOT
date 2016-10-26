@@ -8,14 +8,14 @@ API_TOKEN = 'TuTokenVaAca'
 
 bot = telebot.TeleBot(API_TOKEN)
 print "Sistema iniciado"
-# Maneja el Help y el start, ni pelota le doy
+# Señal que recibe el bot al inicio
 @bot.message_handler(commands=['help', 'start'])
 def send_welcome(message):
     bot.send_message(message.chat.id,"Bienvenido al Sistema CEUT!\nIngrese 'Menu' para empezar")
 
 
 
-#disparador que maneja mensajes entrantes
+#señal que maneja los mensajes entrantes, usa lambda por comodidad y fiabilidad
 @bot.message_handler(func=lambda message: True)
 def echo_message(message):
         mensaje= message.text
