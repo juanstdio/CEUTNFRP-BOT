@@ -43,7 +43,7 @@ pip install PytelegramBot
 ### Collaborators:
 * [juanchip](https://github.com/juanchip) 
 * [marcoshuck](https://github.com/marcoshuck)
-
+* [dualGiupponi](https://github.com/dualGiupponi)
 ### Licence
 
 GNU GENERAL PUBLIC LICENSE
